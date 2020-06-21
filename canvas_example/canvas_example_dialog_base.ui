@@ -29,7 +29,7 @@
     <attribute name="title">
      <string>Canvas Tab</string>
     </attribute>
-    <widget class="QgsMapCanvas" name="widget" native="true">
+    <widget class="QgsMapCanvas" name="mapWidget" native="true">
      <property name="geometry">
       <rect>
        <x>10</x>
