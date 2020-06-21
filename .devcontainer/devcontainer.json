@@ -1,0 +1,19 @@
+{
+	"name": "PluginDevelopment",
+	"context": "..",
+	"dockerFile": "Dockerfile",
+	"extensions": [
+		"ms-python.python"
+	],
+	"postCreateCommand": "python3 -m pip install -r .devcontainer/requirements.txt",
+	"containerEnv": {
+		"PYTHONPATH": "$PYTHONPATH:/QGIS/python:/QGIS/python/plugins"
+	},
+	"settings": {
+		"python.pythonPath": "/bin/python3",
+		"python.linting.flake8Enabled": true,
+		"python.linting.pylintEnabled": false,
+		"python.formatting.provider": "black",
+		"editor.formatOnSave": true
+	}
+}

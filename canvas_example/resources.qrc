@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/canvas_example" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
